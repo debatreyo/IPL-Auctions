@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Indian Premier League — How Auction Money Escalated</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Heading font: Oswald (400) -->
+    <!-- Body font: IBM Plex Sans Condensed (400) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=IBM+Plex+Sans+Condensed:wght@400&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="page_header">
+        <h1 class="page_title">
+          Indian Premier League: How Auction Money Escalated
+        </h1>
+
+        <p class="page_subtitle">Debatreyo Roy, Data Analyst</p>
+
+        <nav class="page_nav">
+          <a href="https://www.linkedin.com/in/debatreyoroy/" target="_blank"
+            >LinkedIn</a
+          >
+          <span class="nav_divider">|</span>
+          <a href="https://github.com/debatreyo" target="_blank">GitHub</a>
+        </nav>
+      </header>
+
+      <section class="viz_block">
+        <img
+          class="viz_img"
+          src="viz/ipl_auction.jpeg"
+          alt="IPL auction visualization showing the most expensive player and the next three most expensive players by season" />
+        <p class="viz_caption">
+          The y-axis represents auction value (INR Lakh). Each season’s thick
+          gold line marks the most expensive player, with thin stems showing the
+          next three highest signings.
+        </p>
+      </section>
+
+      <article class="article_content">
+        <h2>Understanding the Structure of the Chart</h2>
+        <p>
+          For every season, the
+          <strong>thick gold horizontal line</strong> represents the amount
+          spent on the <strong>most expensive player</strong> in that year's
+          auction.
+        </p>
+        <p>
+          The <strong>thin vertical stems</strong> extending from that line
+          represent the <strong>next three most expensive players</strong> for
+          the same season.
+        </p>
+        <p>
+          This structure makes it immediately visible how sharply spending drops
+          after the single biggest marquee signing.
+        </p>
+
+        <h2>2013: The Baseline</h2>
+        <p>In 2013, the highest amount spent in the auction was:</p>
+        <p>
+          <strong>Glenn Maxwell</strong> (All-Rounder),
+          <strong>Mumbai Indians</strong> — <strong>INR 1,000,000</strong>
+        </p>
+        <p>
+          This value serves as the baseline reference point for understanding
+          the scale of escalation over the following decade.
+        </p>
+
+        <h2>2024–2026: A ~250× Shift in Scale</h2>
+        <p>
+          Since 2024, the most expensive player in each season has been
+          purchased for nearly <strong>250 times</strong> the 2013 peak.
+        </p>
+        <p>
+          <strong>2024</strong> — Mitchell Starc, Kolkata Knight Riders —
+          <strong>INR 247,500,000</strong>
+          <br />
+          <strong>2025</strong> — Rishabh Pant, Lucknow Super Giants —
+          <strong>INR 270,000,000</strong>
+          <br />
+          <strong>2026</strong> — Cameron Green, Kolkata Knight Riders —
+          <strong>INR 252,000,000</strong>
+        </p>
+        <p>
+          The magnitude of increase is not incremental — it represents a
+          structural shift in the financial scale of the league.
+        </p>
+
+        <h2>What the Pattern Suggests</h2>
+        <p>
+          Across seasons, the gap between the most expensive player and the next
+          three signings is often steep. This indicates that auctions are
+          frequently driven by aggressive bidding for one marquee name, followed
+          by a more clustered but lower spending tier.
+        </p>
+        <p>
+          The visualization captures this widening top-end concentration — where
+          headline numbers escalate dramatically while the broader distribution
+          grows at a comparatively steadier pace.
+        </p>
+
+        <h2>Data Source</h2>
+        <p>Auction data sourced from <strong>ipl20.com</strong>.</p>
+      </article>
+    </main>
+  </body>
+</html>
